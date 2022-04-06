@@ -1,0 +1,55 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: url("images/poker-table.jpeg") no-repeat; 
+    background-size: cover; 
+    color: #fff;
+    font-weight: bold;
+    font-size: 35px;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+}
+
+h1{
+    color: goldenrod;
+}
+#message-el{
+    font-style: italic;
+}
+.message-el{
+    text-decoration: underline;
+}
+button{
+    background-color: goldenrod;
+    padding: 10px 20px;
+    font-size: 35px;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+    margin: 20px;
+    width: 420px;
+}
+button:hover{
+    background-color: rgba(217, 165, 33, 0.95);
+    transition: transform 350ms ease-in-out;
+    transform: scale(1.1);
+}
+#new-card-btn{
+    display: none;
+}
+#new-game-btn{
+    display: none;
+}
+
+@media(max-width: 750px){
+    body{
+        font-size: 20px;
+    }
+    button{
+        font-size: 20px;
+        width: max-content;
+    }
+    #new-card-btn{
+        width: 242px;
+    }
+}
